@@ -40,6 +40,9 @@ O_FMDV_ML is based on machine learning models to predict O-type FMDV-specific an
 ```
 Linux environment
 python 3.9.25
+sklearn(GNB/random forest): 1.6.1
+LGBM: 4.1.0
+XGBoost: 2.0.3
 pandas              : 2.3.3
 Bio (Biopython)     : 1.85
 joblib              : 1.5.2
