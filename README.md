@@ -1,5 +1,7 @@
 # O-type FMDV specific antibody classifier based on machine learning model
-O_FMDV_ML is based on machine learning models to predict O-type FMDV-specific antibodies.
+**O_FMDV_ML is based on machine learning models to predict O-type FMDV-specific antibodies.**
+
+To run the trained model, first run **data_feature.py** in the **AbAg** folder, then run **model_train.py**.
 
 ## Args:
 
