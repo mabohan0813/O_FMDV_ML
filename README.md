@@ -33,11 +33,6 @@ O_FMDV_ML is based on machine learning models to predict O-type FMDV-specific an
    True or False. Skip feature extraction (use existing feature files in output dir) when running model prediction.
 --model_dir, The absolute path of base/meta learner pkl files, default is the same as input dir.
 --fasta_dir, The absolute path of feature name fasta files for models, default is the same as input dir.
---run_mode, feature_only or predict_only or full, default="full"
-   feature_only: Only run data_feature.py to generate feature files.
-   predict_only: Only run model_train.py (require pre-generated feature files).
-   full: Run data_feature.py first, then model_train.py (complete workflow).
---antigen_names, The antigen names corresponding to sample data, split by ',', default="fmdv"
 ```
 
 ## Requirements:
