@@ -48,5 +48,6 @@ XGBoost: 2.0.3
 pandas              : 2.3.3
 Bio (Biopython)     : 1.85
 joblib              : 1.5.2
-Result files from IMGT HighV.If you wish to use this model, ensure that you obtain the corresponding sample.csv dataset. You need to extract the number of amino acid mutations from the output files of the IMGT/HighV-QUEST server to calculate the somatic hypermutation rate, and acquire partial antibody feature data via minoAcidProperties.
+Result files from IMGT HighV.If you wish to use this model, ensure that you obtain the corresponding sample.csv dataset.
+You need to extract the number of amino acid mutations from the output files of the IMGT/HighV-QUEST server to calculate the somatic hypermutation rate, and acquire partial antibody feature data via minoAcidProperties.
 ```
